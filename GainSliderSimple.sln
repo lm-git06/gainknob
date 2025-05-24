@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GainSliderSimple - Standalone Plugin", "GainSliderSimple_StandalonePlugin.vcxproj", "{22FB7ED7-09E3-3741-2E0C-2784B0D632D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B6C2E41-583E-C66C-4192-5EE1DD27A8C8} = {7B6C2E41-583E-C66C-4192-5EE1DD27A8C8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GainSliderSimple - VST3", "GainSliderSimple_VST3.vcxproj", "{C3F5D5BA-9E8A-9882-C472-B42B8290DF53}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7B6C2E41-583E-C66C-4192-5EE1DD27A8C8} = {7B6C2E41-583E-C66C-4192-5EE1DD27A8C8}
+		{667C3FA9-6B2B-F32E-8424-EA89DD8AA0E7} = {667C3FA9-6B2B-F32E-8424-EA89DD8AA0E7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GainSliderSimple - Shared Code", "GainSliderSimple_SharedCode.vcxproj", "{7B6C2E41-583E-C66C-4192-5EE1DD27A8C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GainSliderSimple - VST3 Manifest Helper", "GainSliderSimple_VST3ManifestHelper.vcxproj", "{667C3FA9-6B2B-F32E-8424-EA89DD8AA0E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3F5D5BA-9E8A-9882-C472-B42B8290DF53}.Debug|x64.ActiveCfg = Debug|x64
+		{C3F5D5BA-9E8A-9882-C472-B42B8290DF53}.Debug|x64.Build.0 = Debug|x64
+		{C3F5D5BA-9E8A-9882-C472-B42B8290DF53}.Release|x64.ActiveCfg = Release|x64
+		{C3F5D5BA-9E8A-9882-C472-B42B8290DF53}.Release|x64.Build.0 = Release|x64
+		{22FB7ED7-09E3-3741-2E0C-2784B0D632D2}.Debug|x64.ActiveCfg = Debug|x64
+		{22FB7ED7-09E3-3741-2E0C-2784B0D632D2}.Debug|x64.Build.0 = Debug|x64
+		{22FB7ED7-09E3-3741-2E0C-2784B0D632D2}.Release|x64.ActiveCfg = Release|x64
+		{22FB7ED7-09E3-3741-2E0C-2784B0D632D2}.Release|x64.Build.0 = Release|x64
+		{7B6C2E41-583E-C66C-4192-5EE1DD27A8C8}.Debug|x64.ActiveCfg = Debug|x64
+		{7B6C2E41-583E-C66C-4192-5EE1DD27A8C8}.Debug|x64.Build.0 = Debug|x64
+		{7B6C2E41-583E-C66C-4192-5EE1DD27A8C8}.Release|x64.ActiveCfg = Release|x64
+		{7B6C2E41-583E-C66C-4192-5EE1DD27A8C8}.Release|x64.Build.0 = Release|x64
+		{667C3FA9-6B2B-F32E-8424-EA89DD8AA0E7}.Debug|x64.ActiveCfg = Debug|x64
+		{667C3FA9-6B2B-F32E-8424-EA89DD8AA0E7}.Debug|x64.Build.0 = Debug|x64
+		{667C3FA9-6B2B-F32E-8424-EA89DD8AA0E7}.Release|x64.ActiveCfg = Release|x64
+		{667C3FA9-6B2B-F32E-8424-EA89DD8AA0E7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
